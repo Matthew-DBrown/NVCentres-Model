@@ -90,9 +90,8 @@ class NvCentre:
         h3 = self.nitrogen_hyperfine_hamiltonian()
         if b_field == None:
             b_field = [0,0,0]
-        else:
-            pass
         h4 = self.b_field_hamiltonian(b_field)
+        self.b_field = b_field
         return h1 + h2 + h3 + h4
         
         
