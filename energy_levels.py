@@ -7,7 +7,6 @@ Created on Fri Aug 16 12:26:12 2024
 import hamiltonians as ham
 import hamiltonians_14_15 as ham15
 import qutip as qt
-import utility
 import numpy as np
 import matplotlib.pyplot as plt
 
